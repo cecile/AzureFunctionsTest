@@ -1,0 +1,57 @@
+{
+	"id": "aeb2ff72-0a0f-3154-5607-8a22f9dbcf86",
+	"name": "AzureFunctions",
+	"description": "",
+	"order": [
+		"664a2c57-f487-edfb-197d-dc2016133615",
+		"f100723b-e6c6-bd2e-0be4-7b4519fef593"
+	],
+	"folders": [],
+	"timestamp": 1482969151711,
+	"owner": "192568",
+	"public": false,
+	"requests": [
+		{
+			"id": "664a2c57-f487-edfb-197d-dc2016133615",
+			"headers": "Content-Type: application/json\n",
+			"url": "https://azurefunctionstest20161228113600.azurewebsites.net/api/PingPong?code=a78Zezf3V4J0vKZlxeTWai8n8k6oKlcVQ9SeTpSE3F/7mJgwrjociQ==",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "aeb2ff72-0a0f-3154-5607-8a22f9dbcf86",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Ping Ping (Azure Platform)",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1482969171955,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n ping : \"great\"\n}"
+		},
+		{
+			"id": "f100723b-e6c6-bd2e-0be4-7b4519fef593",
+			"headers": "Content-Type: application/json\n",
+			"url": "https://azurefunctionstest20161228113600.azurewebsites.net/api/PingPong?code=a78Zezf3V4J0vKZlxeTWai8n8k6oKlcVQ9SeTpSE3F/7mJgwrjociQ==",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "aeb2ff72-0a0f-3154-5607-8a22f9dbcf86",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Ping Ping (Local)",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1482969171955,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n ping : \"great\"\n}"
+		}
+	]
+}
